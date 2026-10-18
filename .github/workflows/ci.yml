@@ -97,8 +97,9 @@ jobs:
             build/DerivedData/Logs/Build
           retention-days: 7
           if-no-files-found: ignore
-  
-    device-build:
+
+
+  device-build:
     name: Build unsigned IPA (device)
     runs-on: macos-26
     timeout-minutes: 25
